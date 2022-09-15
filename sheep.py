@@ -2,7 +2,7 @@
 Author: Vincent Young
 Date: 2022-09-15 12:22:40
 LastEditors: Vincent Young
-LastEditTime: 2022-09-15 12:31:02
+LastEditTime: 2022-09-15 14:18:52
 FilePath: /FuckSheepGame/sheep.py
 Telegram: https://t.me/missuo
 
@@ -21,6 +21,7 @@ url = "https://cat-match.easygame2021.com/sheep/v1/game/game_over?rank_score=1&r
 
 headers = {'User-Agent': "Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.28(0x18001c25) NetType/WIFI Language/en", "t": t}
 
-r = requests.get(url = url, headers = headers).text
-rj = json.loads(r)
-print(rj)
+while True:
+    r = requests.get(url = url, headers = headers).text
+    rj = json.loads(r)
+    print(rj)
