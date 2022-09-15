@@ -19,11 +19,17 @@
 
 开发中...
 
-`QuanX` 脚本 （放在[rewrite_remote]下面）
+`QuanX` 脚本(**强烈推荐**)
 ```
 # 羊了个羊 通关
 https://raw.githubusercontent.com/missuo/FuckSheepGame/main/sheep.js
 , tag=Sheep, update-interval=172800, opt-parser=true, enabled=true
+```
+复制上面的代码，粘贴到`QuanX`配置文件的`[rewrite_remote]`下。如果没有添加过资源解析器，请在`[general]`下添加以下代码。
+
+```
+# 资源解析器，自定义各类远程资源的转换
+resource_parser_url=https://cdn.jsdelivr.net/gh/KOP-XIAO/QuantumultX@master/Scripts/resource-parser.js
 ```
 
 `HTTP Catcher` 重写规则
