@@ -2,7 +2,7 @@
  * @Author: Vincent Young
  * @Date: 2022-09-15 14:18:33
  * @LastEditors: Vincent Young
- * @LastEditTime: 2022-09-15 15:26:11
+ * @LastEditTime: 2022-09-15 15:27:39
  * @FilePath: /FuckSheepGame/README.md
  * @Telegram: https://t.me/missuo
  * 
@@ -21,7 +21,8 @@
 `QuanX` 脚本
 ```
 # 羊了个羊 通关
-https://script.nisekoo.com/sheep.js, tag=Sheep, update-interval=172800, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/missuo/FuckSheepGame/main/sheep.js
+, tag=Sheep, update-interval=172800, opt-parser=true, enabled=true
 ```
 
 `HTTP Catcher` 重写规则
