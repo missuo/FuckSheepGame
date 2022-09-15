@@ -19,7 +19,7 @@
 
 开发中...
 
-`QuanX` 脚本
+`QuanX` 脚本 （放在[rewrite_remote]下面）
 ```
 # 羊了个羊 通关
 https://raw.githubusercontent.com/missuo/FuckSheepGame/main/sheep.js
