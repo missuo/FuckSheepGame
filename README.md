@@ -1,9 +1,28 @@
+<!--
+ * @Author: Vincent Young
+ * @Date: 2022-09-15 14:18:33
+ * @LastEditors: Vincent Young
+ * @LastEditTime: 2022-09-15 15:26:11
+ * @FilePath: /FuckSheepGame/README.md
+ * @Telegram: https://t.me/missuo
+ * 
+ * Copyright © 2022 by Vincent, All Rights Reserved. 
+-->
 # FuckSheepGame
 羊了个羊刷通关次数
 
 ## 第二关过关方式
 使用 `MITM` 篡改请求，将 `map_id` 的 `90014` 修改为 `80001` 即可。这样子你的第二关地图也会变成第一关的地图。
 > iOS上可以使用 `QuanX`、`Surge`、`HTTP Catcher`，Android上 **没试过** 。
+
+`Surge` 模块
+`https://raw.githubusercontent.com/missuo/FuckSheepGame/main/sheep.sgmodule`
+
+`QuanX` 脚本
+```
+# 羊了个羊 通关
+https://script.nisekoo.com/sheep.js, tag=Sheep, update-interval=172800, opt-parser=true, enabled=true
+```
 
 `HTTP Catcher` 重写规则
 ```json
