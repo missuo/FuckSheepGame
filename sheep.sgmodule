@@ -5,4 +5,4 @@
 fuckSheepGame.js = max-size=-1,script-path=https://raw.githubusercontent.com/missuo/FuckSheepGame/main/sheep.js,type=http-request,pattern=^https?:\/\/cat-match\.easygame2021\.com\/sheep\/v1\/game\/map_info,script-update-interval=0
 
 [MITM]
-hostname = cat-match.easygame2021.com:0
+hostname = %APPEND% cat-match.easygame2021.com
