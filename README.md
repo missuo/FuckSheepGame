@@ -2,7 +2,7 @@
  * @Author: Vincent Young
  * @Date: 2022-09-15 14:18:33
  * @LastEditors: Vincent Young
- * @LastEditTime: 2022-09-15 15:27:39
+ * @LastEditTime: 2022-09-15 15:38:31
  * @FilePath: /FuckSheepGame/README.md
  * @Telegram: https://t.me/missuo
  * 
@@ -17,7 +17,7 @@
 
 `Surge` 模块
 
-`https://raw.githubusercontent.com/missuo/FuckSheepGame/main/sheep.sgmodule`
+开发中...
 
 `QuanX` 脚本
 ```
