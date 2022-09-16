@@ -13,6 +13,7 @@
 
 ## 写在前面
 - 本 Repo 仅供学习使用，禁止用于任何盈利为目的的用途。如有任何后果，作者概不负责。
+- 如果您没有开发的基础，可能对您来说会相对困难一些，当然也鼓励您尝试一下本通关方案。
 - 由于需要篡改 HTTPS 的请求，所以必须要在你的手机上安装证书，并且在关于本机 - 证书信任设置里面信任证书。
 - QuanX 需要安装并且信任证书后，开启MITM和Rewrite。
 - HTTP Catcher 需要开启解密HTTPS流量，并且开启重写列表。
@@ -73,7 +74,7 @@ resource_parser_url=https://cdn.jsdelivr.net/gh/KOP-XIAO/QuantumultX@master/Scri
 
 
 ## 刷通关次数
-修改 `t` 为你自己的 `cookies` ，运行脚本，运行一次通关一次。
+修改 `t` 为你自己的 `cookies` ，运行脚本，运行一次通关一次。 `Cookies` 可以使用 `Stream` `HTTP Catcher` `Proxyman` 等工具安装信任证书开启解密HTTPS后打开游戏抓取。
 ```python
 pip3 install requests
 python3 sheep.py
