@@ -16,6 +16,6 @@
 hostname = cat-match.easygame2021.com
 */
 
-path =  "/sheep/v1/game/map_info?map_id=80001"
+path =  "/sheep/v1/game/map_info_new?map_id=80001"
 
 $done({path});
