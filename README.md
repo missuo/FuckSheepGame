@@ -66,7 +66,7 @@ resource_parser_url=https://cdn.jsdelivr.net/gh/KOP-XIAO/QuantumultX@master/Scri
       "port" : 0,
       "query" : "",
       "host" : "cat-match.easygame2021.com",
-      "path" : "\/sheep\/v1\/game\/map_info"
+      "path" : "\/sheep\/v1\/game\/map_info_new"
     }
   ]
 }
